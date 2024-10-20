@@ -1,0 +1,152 @@
+// typography tokens
+$typography: (
+  fontFamily: (
+    primary: (
+      name: 'Raleway', sans-serif,
+      fontWeight: (
+        light: 100,
+        regular: 400,
+        medium: 500,
+        bold: 700,
+      ),
+    ),
+  ),
+  fontSize: (
+    font-10: (
+      size: 10px,
+      lineHeight: 22px,
+    ),
+    font-14: (
+      size: 14px,
+      lineHeight: 28px,
+    ),
+    font-16: (
+      size: 16px,
+      lineHeight: 26px,
+    ),
+    font-18: (
+      size: 18px,
+      lineHeight: 26px,
+    ),
+    font-20: (
+      size: 20px,
+      lineHeight: 28px,
+    ),
+    font-24: (
+      size: 24px,
+      lineHeight: 32px,
+    ),
+    font-26: (
+      size: 26px,
+      lineHeight: 34px,
+    ),
+    font-30: (
+      size: 30px,
+      lineHeight: 35px,
+    ),
+    font-40: (
+      size: 40px,
+      lineHeight: 50px,
+    ),
+    font-50: (
+      size: 50px,
+      lineHeight: 50px,
+    ),
+  ),
+);
+
+// headings tokens
+$headings: (
+  xxs: (
+    fontWeight: 500,
+    fontSize: 18px,
+    lineHeight: 26px,
+  ),
+  xs: (
+    fontWeight: 500,
+    fontSize: 20px,
+    lineHeight: 28px,
+    marginBottom: 8px,
+  ),
+  sm: (
+    fontWeight: 700,
+    fontSize: 24px,
+    lineHeight: 32px,
+  ),
+  md: (
+    fontWeight: 700,
+    fontSize: 30px,
+    lineHeight: 35px,
+  ),
+  lg: (
+    fontWeight: 700,
+    fontSize: 40px,
+    lineHeight: 50px,
+  ),
+  xl: (
+    fontWeight: 700,
+    fontSize: 50px,
+    lineHeight: 50px,
+  ),
+);
+
+// paragraphs tokens
+$paragraphs: (
+  xxxs: (
+    fontWeight: 500,
+    fontSize: 10px,
+    lineHeight: 22px,
+  ),
+  xxs: (
+    fontWeight: 400,
+    fontSize: 14px,
+    lineHeight: 28px,
+  ),
+  xs: (
+    fontWeight: 400,
+    fontSize: 16px,
+    lineHeight: 26px,
+  ),
+  md: (
+    fontWeight: 400,
+    fontSize: 18px,
+    lineHeight: 26px,
+  ),
+);
+
+// breakpoints tokens
+$breakpoints: (
+  widths: (
+    xsmall: 480px,
+    small: 768px,
+    medium: 980px,
+    large: 1200px,
+  ),
+);
+
+// colors tokens
+$colors: (
+  text: (
+    primary: #35394d,
+    secondary: #9dc4a5,
+    tertiary: #222323,
+  ),
+  background: (
+    primary: #d5d4d4,
+    secondary: #e9e8e8,
+    highlight: #ffffff,
+  ),
+);
+
+// spacing tokens
+$spacing: (
+  xxxlarge: 75px,
+  xxlarge: 60px,
+  xlarge: 50px,
+  large: 40px,
+  medium: 30px,
+  xsmall: 20px,
+  xxsmall: 15px,
+  xxxsmall: 10px,
+);
+
