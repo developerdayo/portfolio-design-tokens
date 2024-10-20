@@ -1,0 +1,23 @@
+{
+  "name": "@sferguson9670/portfolio-design-tokens",
+  "version": "1.0.1",
+  "description": "JSON Design tokens to scss variables/maps",
+  "main": "dist/design-tokens.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node convert-json-to-scss.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerdayo/portfolio-design-tokens.git"
+  },
+  "author": "Sarah Ferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerdayo/portfolio-design-tokens/issues"
+  },
+  "homepage": "https://github.com/developerdayo/portfolio-design-tokens#readme",
+  "files": [
+    "dist/design-tokens.scss"
+  ]
+}
