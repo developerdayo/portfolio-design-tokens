@@ -8,6 +8,14 @@ const outputScssPath = path.join(__dirname, 'dist', 'design-tokens.scss');
 // Load the JSON file
 const tokens = JSON.parse(fs.readFileSync(tokensJsonPath, 'utf8'));
 
+// Function to escape values that contain commas (e.g., font-family strings)
+function escapeScssValue(value) {
+  if (typeof value === 'string' && value.includes(',')) {
+    return `"${value}"`;  // Wrap in double quotes
+  }
+  return value;
+}
+
 // Function to convert JSON tokens to SCSS
 function convertJsonToScss(tokens) {
   let scssContent = '';
@@ -25,8 +33,8 @@ function convertJsonToScss(tokens) {
         // Handle nested objects by recursively calling the function
         result += `${indent}  ${key}: ${processTokenGroup(value, indentLevel + 1)},\n`;
       } else {
-        // Handle key-value pairs
-        result += `${indent}  ${key}: ${value},\n`;
+        // Handle key-value pairs, and escape if needed
+        result += `${indent}  ${key}: ${escapeScssValue(value)},\n`;
       }
     });
 
