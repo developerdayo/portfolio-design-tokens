@@ -1,6 +1,6 @@
 {
   "name": "@sferguson9670/portfolio-design-tokens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON Design tokens to scss variables/maps",
   "main": "dist/design-tokens.scss",
   "scripts": {
