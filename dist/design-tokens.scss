@@ -2,7 +2,7 @@
 $typography: (
   fontFamily: (
     primary: (
-      name: "Raleway, sans-serif",
+      name: "'Raleway', sans-serif",
       fontWeight: (
         light: 100,
         regular: 400,
@@ -12,43 +12,43 @@ $typography: (
     ),
   ),
   fontSize: (
-    font-10: (
+    font10: (
       size: 10px,
       lineHeight: 22px,
     ),
-    font-14: (
+    font14: (
       size: 14px,
       lineHeight: 28px,
     ),
-    font-16: (
+    font16: (
       size: 16px,
       lineHeight: 26px,
     ),
-    font-18: (
+    font18: (
       size: 18px,
       lineHeight: 26px,
     ),
-    font-20: (
+    font20: (
       size: 20px,
       lineHeight: 28px,
     ),
-    font-24: (
+    font24: (
       size: 24px,
       lineHeight: 32px,
     ),
-    font-26: (
+    font26: (
       size: 26px,
       lineHeight: 34px,
     ),
-    font-30: (
+    font30: (
       size: 30px,
       lineHeight: 35px,
     ),
-    font-40: (
+    font40: (
       size: 40px,
       lineHeight: 50px,
     ),
-    font-50: (
+    font50: (
       size: 50px,
       lineHeight: 50px,
     ),
@@ -57,33 +57,33 @@ $typography: (
 
 // headings tokens
 $headings: (
-  xxs: (
+  xxSmall: (
     fontWeight: 500,
     fontSize: 18px,
     lineHeight: 26px,
   ),
-  xs: (
+  xSmall: (
     fontWeight: 500,
     fontSize: 20px,
     lineHeight: 28px,
     marginBottom: 8px,
   ),
-  sm: (
+  small: (
     fontWeight: 700,
     fontSize: 24px,
     lineHeight: 32px,
   ),
-  md: (
+  medium: (
     fontWeight: 700,
     fontSize: 30px,
     lineHeight: 35px,
   ),
-  lg: (
+  large: (
     fontWeight: 700,
     fontSize: 40px,
     lineHeight: 50px,
   ),
-  xl: (
+  xLarge: (
     fontWeight: 700,
     fontSize: 50px,
     lineHeight: 50px,
@@ -92,22 +92,22 @@ $headings: (
 
 // paragraphs tokens
 $paragraphs: (
-  xxxs: (
+  xxxSmall: (
     fontWeight: 500,
     fontSize: 10px,
     lineHeight: 22px,
   ),
-  xxs: (
+  xxSmall: (
     fontWeight: 400,
     fontSize: 14px,
     lineHeight: 28px,
   ),
-  xs: (
+  xSmall: (
     fontWeight: 400,
     fontSize: 16px,
     lineHeight: 26px,
   ),
-  md: (
+  medium: (
     fontWeight: 400,
     fontSize: 18px,
     lineHeight: 26px,
@@ -117,7 +117,7 @@ $paragraphs: (
 // breakpoints tokens
 $breakpoints: (
   widths: (
-    xsmall: 480px,
+    xSmall: 480px,
     small: 768px,
     medium: 980px,
     large: 1200px,
@@ -140,13 +140,13 @@ $colors: (
 
 // spacing tokens
 $spacing: (
-  xxxlarge: 75px,
-  xxlarge: 60px,
-  xlarge: 50px,
+  xxxLarge: 75px,
+  xxLarge: 60px,
+  xLarge: 50px,
   large: 40px,
   medium: 30px,
-  xsmall: 20px,
-  xxsmall: 15px,
-  xxxsmall: 10px,
+  small: 20px,
+  xSmall: 15px,
+  xxSmall: 10px,
 );
 
